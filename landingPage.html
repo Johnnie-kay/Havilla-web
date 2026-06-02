@@ -8,10 +8,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="landingPage.js"></script>
     <style>
         body {
             font-family: 'Poppins', sans-serif;
             font-size: 16px;
+            scroll-behavior: smooth;
         }
     </style>    
 </head>
@@ -22,15 +24,15 @@
             <img src="/Images/Logo.png" alt="Logo">
             <p class="text-[#0A243F] font-bold text-lg">Havilla.</p>
         </div>
-
+        
         <div class="hidden md:flex justify-center items-center gap-6 text-xs">
             <a class="text-[#0A243F] font-medium" href="#">Home</a>
-            <a class="text-[#0A243F] opacity-50" href="#">How it works</a>
-            <a class="text-[#0A243F] opacity-50" href="#">Features</a>
+            <a class="text-[#0A243F] opacity-50" href="#about">How it works</a>
+            <a class="text-[#0A243F] opacity-50" href="#features">Features</a>
         </div>
 
         <div class="hidden md:flex justify-center items-center gap-4 text-xs">
-            <button class="text-[#0A243F]">Sign in</button>
+            <a href="#about"><button class="text-[#0A243F]">Sign in</button></a>
             <button class="bg-[#F4A160] text-white px-4 py-2 rounded-md">Get Started</button>
         </div>
 
@@ -39,9 +41,9 @@
     
     <div id="mobileMenu" class="hidden md:hidden flex-col gap-4 px-6 pb-4 text-sm bg-white">
         <a class="text-[#0A243F] font-medium" href="#">Home</a>
-        <a class="text-[#0A243F] opacity-50" href="#">How it works</a>
-        <a class="text-[#0A243F] opacity-50" href="#">Features</a>
-        <a class="text-[#0A243F]" href="#">Sign in</a>
+        <a class="text-[#0A243F] opacity-50" href="#about">How it works</a>
+        <a class="text-[#0A243F] opacity-50" href="#features">Features</a>
+        <a class="text-[#0A243F]" href="">Sign in</a>
         <button class="bg-[#F4A160] text-white px-4 py-2 rounded-md w-fit">Get Started</button>
     </div>
 
@@ -62,7 +64,7 @@
     </section>
 
     <!-- STATS + HOW IT WORKS -->
-    <section class="md:px-10 md:pt-28 relative">
+    <section class="md:px-10 md:pt-28 relative" id="about">
 
         <!-- Stats bar -->
         <div class="flex justify-center items-center gap-4 md:gap-10 mb-14 pt-4 border-b-2 border-r-2 border-l-2 border-gray-200 pb-6 mx-4 md:w-1/2 md:absolute md:top-0 md:-mt-6 md:left-1/2 md:transform md:-translate-x-1/2 bg-white rounded-xl">
@@ -113,7 +115,7 @@
     </section>
 
     <!-- WHY HAVILLA -->
-    <section class="bg-[#0A243F] text-white px-6 py-14">
+    <section class="bg-[#0A243F] text-white px-6 py-14" id="features">
         <div class="text-center mb-10">
             <span class="text-xs border border-gray-500 rounded-full px-3 py-1 text-gray-400">Why Havilla?</span>
             <h2 class="text-2xl md:text-3xl font-bold mt-3">Built For Modern Event Planning In Nigeria</h2>
@@ -168,7 +170,7 @@
             <div class="">
                 <h4 class="font-semibold text-[#0A243F] mb-3">Company</h4>
                 <div class="flex flex-col gap-2 text-sm text-gray-500">
-                    <a href="#">About</a>
+                    <a href="#about">About</a>
                     <a href="#">Blog</a>
                 </div>
             </div>
@@ -193,7 +195,7 @@
                 <h4 class="font-semibold text-[#0A243F] mb-3">Quick Action</h4>
                 <div class="flex flex-col gap-2 text-sm text-gray-500">
                     <a href="#">Back to top</a>
-                    <a href="#">How it works</a>
+                    <a href="#about">How it works</a>
                 </div>
             </div>
         </div>
