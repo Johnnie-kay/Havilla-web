@@ -2,15 +2,6 @@
 
 A comprehensive web platform for event planning and venue management.
 
-## Table of Contents
-- [Overview](#overview)
-- [Project Structure](#project-structure)
-- [Features](#features)
-- [Getting Started](#getting-started)
-- [API Documentation](#api-documentation)
-- [Project Pages](#project-pages)
-- [Contributing](#contributing)
-
 ## Overview
 
 Havilla Web is a web application designed to facilitate event planning and venue management. The platform serves multiple user roles including planners, venue owners, and administrators, providing them with dedicated interfaces and tools.
