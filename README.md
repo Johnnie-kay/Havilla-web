@@ -2,7 +2,7 @@
 
 A comprehensive web platform for event planning and venue management.
 
-## 📋 Table of Contents
+## Table of Contents
 - [Overview](#overview)
 - [Project Structure](#project-structure)
 - [Features](#features)
@@ -11,7 +11,7 @@ A comprehensive web platform for event planning and venue management.
 - [Project Pages](#project-pages)
 - [Contributing](#contributing)
 
-## 📖 Overview
+## Overview
 
 Havilla Web is a web application designed to facilitate event planning and venue management. The platform serves multiple user roles including planners, venue owners, and administrators, providing them with dedicated interfaces and tools.
 
@@ -20,7 +20,7 @@ Havilla Web is a web application designed to facilitate event planning and venue
 **Visibility:** Public  
 **License:** ISC
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 Havilla-web/
@@ -45,7 +45,7 @@ Havilla-web/
 | Planner | `Planner Page/` | Event planning dashboard |
 | Venue Owner | `Venue Owner/` | Venue management portal |
 
-## ✨ Features
+## Features
 
 - **Multi-role Support:** Distinct interfaces for Planners, Venue Owners, and Administrators
 - **Authentication:** Secure sign-in and sign-up functionality
@@ -82,7 +82,7 @@ Havilla-web/
    - Navigate to Sign Up to create an account
    - Use Sign In to access the platform based on your role
 
-## 📡 API Documentation
+## API Documentation
 
 ### Authentication Endpoints
 
@@ -128,7 +128,7 @@ Havilla-web/
   - Content moderation
   - System settings
 
-## 📁 Project Pages
+## Project Pages
 
 ### Admin Page
 Administrative interface for platform management and user oversight.
@@ -148,7 +148,7 @@ Management portal for venue proprietors to:
 ### Images
 Centralized storage for all image assets used throughout the platform.
 
-## 🛠️ Development
+## Development
 
 ### File Organization
 - HTML files for page structure
@@ -161,32 +161,27 @@ Centralized storage for all image assets used throughout the platform.
 - Test across different browsers and devices
 - Document any custom implementations
 
-## 📦 Technologies Used
+## Technologies Used
 
 - **Frontend:** HTML5, CSS3, JavaScript (ES6+)
 - **Styling:** CSS (Responsive)
 - **Architecture:** Client-side MVC pattern
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! To contribute:
 
 1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+2. Create your feature branch (`git checkout -b feature/Newfeature`)
+3. Commit your changes (`git commit -m 'Add some Newfeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📝 Notes
-
-- This is a fork of [somtee001/Havilla-web](https://github.com/somtee001/Havilla-web)
-- Repository created: June 2026
-- Last updated: June 2, 2026
-
-## 📞 Support
+## Support
 
 For issues, questions, or suggestions, please open an issue on the [GitHub repository](https://github.com/Johnnie-kay/Havilla-web/issues).
 
 ---
 
-**Made with ❤️ by the Havilla Team**
+- Repository created: June 2026
+- Last updated: June 2 2026
