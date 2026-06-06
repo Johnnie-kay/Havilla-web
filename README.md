@@ -18,7 +18,7 @@ Havilla Web is a web application designed to facilitate event planning and venue
 **Repository:** [Havilla-web](https://github.com/Johnnie-kay/Havilla-web)  
 **Status:** Active Development  
 **Visibility:** Public  
-**License:** MIT (or your chosen license)
+**License:** ISC
 
 ## 🏗️ Project Structure
 
