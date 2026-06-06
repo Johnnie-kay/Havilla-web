@@ -54,7 +54,7 @@ Havilla-web/
 - **Admin Controls:** Administrative dashboard for platform management
 - **Responsive Design:** HTML-based responsive user interface
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Modern web browser (Chrome, Firefox, Safari, Edge)
