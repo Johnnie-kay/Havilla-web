@@ -6,7 +6,7 @@ A comprehensive web platform for event planning and venue management.
 
 Havilla Web is a web application designed to facilitate event planning and venue management. The platform serves multiple user roles including planners, venue owners, and administrators, providing them with dedicated interfaces and tools.
 
-**Repository:** [Havilla-web](https://github.com/Johnnie-kay/Havilla-web)  
+**Repository:** [Havilla-web](https://github.com/somtee001/Havilla-web)  
 **Status:** Active Development  
 **Visibility:** Public  
 **License:** ISC
@@ -55,7 +55,7 @@ Havilla-web/
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/Johnnie-kay/Havilla-web.git
+   git clone https://github.com/somtee001/Havilla-web.git
    cd Havilla-web
    ```
 
@@ -170,7 +170,7 @@ Contributions are welcome! To contribute:
 
 ## Support
 
-For issues, questions, or suggestions, please open an issue on the [GitHub repository](https://github.com/Johnnie-kay/Havilla-web/issues).
+For issues, questions, or suggestions, please open an issue on the [GitHub repository](https://github.com/somtee001/Havilla-web/issues).
 
 ---
 
